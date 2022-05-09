@@ -1,0 +1,188 @@
+* {
+    font-family: 'Cormorant Garamond', serif;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 575.98px) {
+    ul {
+      visibility: hidden;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    
+    li a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    #picture-description {
+      flex-basis: 100% !important;
+    }
+    
+    #about{
+    flex-direction: column !important;
+    
+    }
+    
+    #banner-img2{
+      width: 100% !important;
+      margin: 16px 0 !important;
+      
+    }
+  }
+  
+  #body{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    max-width: 960px;
+    background-color: white;
+    height: 60px;
+    
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  ul{
+  margin: 0;
+  padding:0;
+  }
+  
+  #header-img {
+    width: 185px;
+    height: auto;
+    align-self: center;
+    margin-left: auto;
+  }
+  
+  #nav-bar {
+    padding: 0 0.5rem;
+    align-self: center;
+  }
+  
+  #banner-img {
+   width: 100%; 
+    
+  }
+  
+  
+   #product-img {
+    width: 100%;
+    
+    }
+  
+  #div-image{
+   display: flex;
+   flex-wrap: wrap;
+  
+  }
+  
+  #picture-description{
+   padding: 16px;
+   flex-basis: 33.33%;
+   text-align: center;
+  
+  }
+    
+  #div-video{
+   display: flex;
+   width: 100%;
+   flex-wrap: wrap;
+  
+  }
+  
+  #vid-cont {
+    flex-basis: 33.33%;
+    margin: 0 auto;
+    text-align: center; 
+  }
+  
+  #video {
+    width: 313px;
+    height: 313px;
+    padding: 16px;
+  }
+  
+  
+  .nav-link{
+    text-decoration: none;
+    color: black;
+    padding: 0 0.5rem;
+    
+  }
+  
+  .nav-link:hover{
+    color: #dcd8e8;
+    text-decoration: underline;
+  }
+  
+  #logo {
+    width: 100px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  #banner-img2{
+    width: 50%;
+    margin-left: 1rem;
+    
+  }
+  
+  #about{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: justify;
+    
+  
+  }
+  
+  #about p{
+    margin: 0;
+  }
+  
+  #contact {
+    padding: 1rem 0;
+    background-color: #b0c5d1;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    display: block;
+  }
+  
+  
+  #submit{
+    padding: 0.25rem 1rem;
+    border-radius: 15px;
+    border: 0;
+    color: white;
+    background-color: #7ba0b5;
+    margin-left: 1rem;
+  
+  }
+  
+  input{
+    margin-top: 1rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 0;
+  }
